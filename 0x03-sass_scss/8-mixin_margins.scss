@@ -1,0 +1,14 @@
+  
+/*Write a Sass file that assigns:*/
+@mixin margin-hor($size) {
+    margin-left: $size;
+    margin-right: $size;
+  }
+  
+  body {
+    @include margin-hor(10px);
+  }
+  
+  div {
+    @include margin-hor(15px);
+  }

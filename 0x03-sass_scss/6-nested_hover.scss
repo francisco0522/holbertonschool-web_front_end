@@ -1,0 +1,10 @@
+/*Write a Sass file that assigns:*/
+$var: #ff0000;
+$var2: #00ff00;
+
+button {
+  color: $happy;
+  &:hover {
+    color: $punpun;
+  }
+}
