@@ -3,8 +3,8 @@ $var: #ff0000;
 $var2: #00ff00;
 
 button {
-  color: $happy;
+  color: $var;
   &:hover {
-    color: $punpun;
+    color: $var2;
   }
 }
